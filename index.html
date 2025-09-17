@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #eaf2ff; /* Light page background */
+    }
+    .biodata {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, #007bff, #00c6ff);
+      padding: 15px;
+      border-radius: 12px;
+      color: white;
+    }
+    .photo {
+      width: 150px;
+      height: 180px;
+      border: 3px solid white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      color: white;
+    }
+    p {
+      margin: 5px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    td:first-child {
+      font-weight: bold;
+      width: 30%;
+      background: #f0f6ff;
+      color: #003366;
+    }
+    tr:nth-child(even) td {
+      background: #f9fcff;
+    }
+    .section-title {
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #0056b3;
+      border-left: 6px solid #007bff;
+      padding-left: 10px;
+    }
+    .declaration {
+      margin-top: 30px;
+      padding: 15px;
+      background: #f0f6ff;
+      border-left: 5px solid #007bff;
+      border-radius: 6px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="biodata">
+    <div class="header">
+      <div class="photo">
+        <!-- Replace 'photo.jpg' with your picture -->
+        <img src="photo.jpg" alt="Your Photo">
+      </div>
+      <div>
+        <h1>Vishal V</h1>
+        <p><b>Date of Birth:</b> 21 Jul 2006</p>
+        <p><b>Gender:</b> Male</p>
+      </div>
+    </div>
+
+    <div class="section-title">Personal Information</div>
+    <table>
+      <tr><td>Full Name</td><td>Vishal V</td></tr>
+      <tr><td>Date of Birth</td><td>21 Jul 2006</td></tr>
+      <tr><td>Age</td><td>19 Years</td></tr>
+      <tr><td>Gender</td><td>Male</td></tr>
+      <tr><td>Nationality</td><td>Indian</td></tr>
+      <tr><td>Languages Known</td><td>Tamil, English</td></tr>
+    </table>
+
+    <div class="section-title">Contact Details</div>
+    <table>
+      <tr><td>Address</td><td>Villupuram, Tamil Nadu, India</td></tr>
+      <tr><td>Phone</td><td>+91 9843862337</td></tr>
+      <tr><td>Email</td><td>vssvvishal@gmail.com</td></tr>
+    </table>
+
+    <div class="section-title">Educational Qualification</div>
+    <table>
+      <tr><td>B.Sc Computer Science With Artificial Intelligence</td><td>DRBCCC Hindu College, Pursuing (2024 – Present)</td></tr>
+      <tr><td>Higher Secondary</td><td>SKMHSS.School, 2021 – 2023</td></tr>
+    </table>
+
+    <div class="section-title">Family Details</div>
+    <table>
+      <tr><td>Father’s Name</td><td>Mr.Vivekanandan.P</td></tr>
+      <tr><td>Mother’s Name</td><td>Mrs.Sasikala B</td></tr>
+    </table>
+
+    <div class="section-title">Declaration</div>
+    <p class="declaration">
+      I hereby declare that the above details are true and correct to the best of my knowledge.
+    </p>
+
+    <p style="margin-top:40px;">
+      <b>Date:</b> ____________ <br>
+      <b>Place:</b> ____________ <br><br>
+      <b>Signature:</b> ____________________
+    </p>
+  </div>
+</body>
+</html>
